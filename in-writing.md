@@ -1,7 +1,7 @@
 # IN WRITING (for Jake Messick)
 
 ## Preamble:
-The overal goal is to create a safe sandbox for non-techincal artists (students and faculty at the Corcoran School of Arts and Design) to explore generative AI tools that expose more parameters than simply a text pronpt, and tools beyond those currently offered by the university (primarily Copilot and Adobe Creative Cloud.) Typical users would range from completely non-technical (imagine a first-year painting student) to slightly more advanced (imagine an interaction design grad student). Additionally, these tools are computationally intensive and would benefit from the power of the HPC. We think ComfyUI is a good starting point: it has a grahical interface for creating custom workflows; in addition to txt2img it has txt2audio, txt2video, and txt2model in various stages of development. These capabilities are all of interest to creators. By staging these tools internally we aim to eliminate some security issues (unlike using an API, there is no data going out to a third party for processing.)
+The overal goal is to create a safe sandbox for non-techincal artists (students and faculty at the Corcoran School of Arts and Design) to explore generative AI tools that expose more parameters than simply a text pronpt, and tools beyond those currently offered by the university (primarily Copilot and Adobe Creative Cloud.) Typical users would range from completely non-technical (imagine a first-year painting student) to slightly more advanced (imagine an interaction design grad student). Additionally, these tools are computationally intensive and would benefit from the power of the HPC. We think running ComfyUI on OOD is a good place to start exploring: unlike the availble Apporto VMs, OOD has more powerful GPUs and allow users to experiment with various installs. ComfUI has a graphical interface for creating custom workflows; in addition to txt2img it has txt2audio, txt2video, and txt2model in various stages of development. These capabilities are all of interest to creators. By staging these tools internally we aim to eliminate some security issues (unlike using an API, there is no data going out to a third party for processing.)
 
 ## Big picture:
 In an ideal world we would have dedicated hardware to provide these tools as a service. In that world, this system should look like:
@@ -15,29 +15,15 @@ In an ideal world we would have dedicated hardware to provide these tools as a s
 
 ## Near-term
 To get to that ideal world we need to learn more about how these tools work, and what the true cost is. In the near-term we hope to:
-+ test install ComfyUI and dependencies to OOD desktop (Cerberus).
-+ document in GitHub:
-+ install process (for future maintainers)
-+ potential affordances that might simplify the process to make it more user-friendly
++ Test install ComfyUI and dependencies to OOD desktop (Cerberus).
++ Identify ways of streamlining the process for acivating modules and installing ComfyUI (and its dependencies and additional models)
++ Create a tutorial for a nontechnical users that includes onboarding to HPC, launching OOD, and activation ComfyUI
++ Create a set of annotated workflows in ComfyUI to get beginers started
++ Evaluate speed of ComfyUI (compare running in OOD vs on an M2 Mac)
++ Explore parallelizing acrose multiple nodes? (possible on OOD?)
 
-
-
-for beginning users:
-use stable existing workflows
-
-for intermediate users:
-create and save/load custom workflows
-add modules at user level
-
-
-some things we discussed
-+ Open OnDemand (OOD)
-+ web interface with SSO > on login go to screen with a couple of buttons that launch SLURM scripts
-+ scripts include
-    + launch slurm session for 4 hours
-    + user info to set save path to users BOX
-        + copy from SCRATCH to BOX/user
-
-What is the sandbox?
-Low- to intermnediate level of difficulty
-Generative AI tools for artists that expose more parameters, allowing for greater creative experimentation and better understanding of the strengths and weaknesses of GenAI.
+## If time allows this summer...
+We'd like to experiment/explore: 
++ Can we build a command line script that could launch a ComfyUI server directly?
++ Can we integrate GW Box such that all outputs are backed up automagically for the user?
++ Can we create a Google sheet app that tracks parameters for each job and compares outputs of multiple jobs in one document?
