@@ -21,6 +21,8 @@ To get to that ideal world we need to learn more about how these tools work, and
 + Create a set of annotated workflows in ComfyUI to get beginers started
 + Evaluate speed of ComfyUI (compare running in OOD vs on an M2 Mac)
 + Explore parallelizing acrose multiple nodes? (possible on OOD?)
++ Can we add comfyui as a interactive application in the HPC dashboard, where there are two options of cerberus and peagesus desktops?
+  
 
 ## If time allows this summer...
 We'd like to experiment/explore: 
