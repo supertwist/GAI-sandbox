@@ -25,5 +25,6 @@ To get to that ideal world we need to learn more about how these tools work, and
 ## If time allows this summer...
 We'd like to experiment/explore: 
 + Can we build a command line script that could launch a ComfyUI server directly?
++ Could said script be launced from a secure web page?
 + Can we integrate GW Box such that all outputs are backed up automagically for the user?
 + Can we create a Google sheet app that tracks parameters for each job and compares outputs of multiple jobs in one document?
