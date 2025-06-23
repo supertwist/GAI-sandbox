@@ -1,5 +1,5 @@
 # Terminal commands for ComfyUI on OOD
-Getting ComfyUI running on an OOD machine can be done with terminal commands; that may sound scary, but it's actually pretty easy, and you don't need to memorize the commands. Just open this page in browser once OOD is launched, and then copy/paste `lines that look like this` one at a time into the terminal, each followed by the "ENTER" key.
+Getting ComfyUI running on an OOD machine can be done with terminal commands; that may sound scary, but it's actually pretty easy, and you don't need to memorize the commands. Just open this page in browser once OOD is launched, and then copy/paste `lines that look like this` one at a time into the terminal, each followed by the "ENTER" key. This sequence of commands was put together by the **AWESOME Dwhanil Mori!&&
 
 ## When setting up ComfyUI for the *first time..*
 
