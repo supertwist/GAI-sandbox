@@ -21,7 +21,7 @@ Next we'll install a really useful 'custom node' called **ComfyUI Manager.** The
 
 Next, we'll use GIT to install the Manager code to that directory:
 
-`git clone https://github.com/ltdrdata/ComfyUI-Manager comfyui-manager
+`git clone https://github.com/ltdrdata/ComfyUI-Manager comfyui-manager`
 
 Next, we'll download all the other software that ComfyUI depends on to run properly. Navigate back to the ComfyUI directory:
 
