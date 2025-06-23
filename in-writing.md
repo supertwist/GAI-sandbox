@@ -21,10 +21,12 @@ To get to that ideal world we need to learn more about how these tools work, and
 + Create a set of annotated workflows in ComfyUI to get beginers started
 + Evaluate speed of ComfyUI (compare running in OOD vs on an M2 Mac)
 + Explore parallelizing acrose multiple nodes? (possible on OOD?)
++ Can we add comfyui as a interactive application in the HPC dashboard, where there are two options of cerberus and peagesus desktops?
+  
 
 ## If time allows this summer...
 We'd like to experiment/explore: 
 + Can we build a command line script that could launch a ComfyUI server directly?
 + Could said script be launced from a secure web page?
-+ Can we integrate GW Box such that all outputs are backed up automagically for the user?
++ Can we integrate GW Box such that all outputs are backed up automagically for the user? (Glen says RTS has a 3rd-party tool that might work)
 + Can we create a Google sheet app that tracks parameters for each job and compares outputs of multiple jobs in one document?
