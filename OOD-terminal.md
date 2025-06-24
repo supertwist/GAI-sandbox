@@ -2,7 +2,6 @@
 Getting ComfyUI running on an OOD machine can be done with terminal commands; that may sound scary, but it's actually pretty easy, and you don't need to memorize the commands. Just open this page in browser once OOD is launched, and then copy/paste `lines that look like this` one at a time into the terminal, each followed by the "ENTER" key. This sequence of commands was put together by the **AWESOME Dhwanil Mori!**
 
 ## When setting up ComfyUI for the *first time..*
-
 First, load Anaconda (an interface for running Python code) and GIT (a tool for using shared code repositories, AKA 'repos'.)
 
 `ml anaconda git`
@@ -46,5 +45,24 @@ And **finally,** we'll launch ComfyUI:
 ...And you are off to the races.
 
 ## *After* you've set up ComfyUI...
+You've just installed all of the tools you'll needto get started. You won't need to regularly re-install ComfyUI, but each time you launch a new session in Cerberus Desktop, you'll need to reactivate the environment:
 
-*Coming soon...*
+Reactivate these modules:
+
+`ml anaconda git`
+
+And:
+
+`source /modules/apps/anaconda3/etc/profile.d/conda.sh`
+
+Then activate the ComfyUI environment:
+
+`conda activate comfyui`
+
+Navigate to the ComfyUI directory:
+
+`cd ComfyUI`
+
+And finally, launch the ComfyUI server:
+
+`python main.py --gpu --listen 0.0.0.0 --port 8888`
