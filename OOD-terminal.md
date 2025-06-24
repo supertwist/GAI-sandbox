@@ -15,6 +15,14 @@ Next, we'll activate an 'environment' specifically for ComfyUI:
 
 `conda activate comfyui`
 
+Now the good stuff, installing ComfyUI:
+
+`git clone https://github.com/comfyanonymous/ComfyUI.git`
+
+And we'll go to the directory it now lives in:
+
+`cd ComfyUI`
+
 Next we'll install a really useful 'custom node' called **ComfyUI Manager.** The manager in turn will allow us to easily find and install other custom nodes (represented as graphical blocks in ComfyUI) and models (AIs tailored to do differet tasks, such as generate written language, images, sound, and 3D models) to create our own custom workflows, or enable workflows created by other people. To do this, we first need to point to the custom nodes directory:
 
 `cd custom nodes`
