@@ -1,5 +1,5 @@
 # Terminal commands for ComfyUI on OOD
-Getting ComfyUI running on an OOD machine can be done with terminal commands; that may sound scary, but it's actually pretty easy, and you don't need to memorize the commands. Just open this page in browser once OOD is launched, and then copy/paste `lines that look like this` one at a time into the terminal, each followed by the "ENTER" key. This sequence of commands was put together by the **AWESOME Dwhanil Mori!**
+Getting ComfyUI running on an OOD machine can be done with terminal commands; that may sound scary, but it's actually pretty easy, and you don't need to memorize the commands. Just open this page in browser once OOD is launched, and then copy/paste `lines that look like this` one at a time into the terminal, each followed by the "ENTER" key. This sequence of commands was put together by the **AWESOME Dhwanil Mori!**
 
 ## When setting up ComfyUI for the *first time..*
 
@@ -29,7 +29,7 @@ Next we'll install a really useful 'custom node' called **ComfyUI Manager.** The
 
 Next, we'll use GIT to install the Manager code to that directory:
 
-`git clone https://github.com/ltdrdata/ComfyUI Manager comfyui manager
+`git clone https://github.com/ltdrdata/ComfyUI-Manager comfyui-manager`
 
 Next, we'll download all the other software that ComfyUI depends on to run properly. Navigate back to the ComfyUI directory:
 
