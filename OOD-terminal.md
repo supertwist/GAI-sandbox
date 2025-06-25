@@ -59,10 +59,6 @@ Then activate the ComfyUI environment:
 
 `conda activate comfyui`
 
-Navigate to the ComfyUI directory:
-
-`cd ComfyUI`
-
 And finally, launch the ComfyUI server:
 
 `python main.py --gpu --listen 0.0.0.0 --port 8888`
