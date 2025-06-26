@@ -85,12 +85,6 @@ Then activate the ComfyUI environment:
 conda activate comfyui
 ```
 
-Make sure we're poited at the ComfyUI directory:
-
-```
-cd ComfyUI
-```
-
 And finally, launch the ComfyUI server:
 
 ```
