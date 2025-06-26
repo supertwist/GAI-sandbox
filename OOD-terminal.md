@@ -4,43 +4,63 @@ Getting ComfyUI running on an OOD machine can be done with terminal commands; th
 ## When setting up ComfyUI for the *first time..*
 First, load Anaconda (an interface for running Python code) and GIT (a tool for using shared code repositories, AKA 'repos'.)
 
-```ml anaconda git```
+```
+ml anaconda git
+```
 
 Next, we'll activate Anaconda:
 
-```source /modules/apps/anaconda3/etc/profile.d/conda.sh```
+```
+source /modules/apps/anaconda3/etc/profile.d/conda.sh
+```
 
 Next, we'll activate an 'environment' specifically for ComfyUI:
 
-```conda activate comfyui```
+```
+conda activate comfyui
+```
 
 Now the good stuff, installing ComfyUI:
 
-```git clone https://github.com/comfyanonymous/ComfyUI.git```
+```
+git clone https://github.com/comfyanonymous/ComfyUI.git
+```
 
 And we'll go to the directory it now lives in:
 
-```cd ComfyUI```
+```
+cd ComfyUI
+```
 
 Next we'll install a really useful 'custom node' called **ComfyUI Manager.** The manager in turn will allow us to easily find and install other custom nodes (represented as graphical blocks in ComfyUI) and models (AIs tailored to do differet tasks, such as generate written language, images, sound, and 3D models) to create our own custom workflows, or enable workflows created by other people. To do this, we first need to point to the custom nodes directory:
 
-```cd custom nodes```
+```
+cd custom nodes
+```
 
 Next, we'll use GIT to install the Manager code to that directory:
 
-```git clone https://github.com/ltdrdata/ComfyUI-Manager comfyui-manager```
+```
+git clone https://github.com/ltdrdata/ComfyUI-Manager comfyui-manager
+```
 
 Next, we'll download all the other software that ComfyUI depends on to run properly. Navigate back to the ComfyUI directory:
 
-```cd ..```
+```
+cd ..
+```
 
 Then:
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 And **finally,** we'll launch ComfyUI:
 
-```python main.py --gpu --listen 0.0.0.0 --port 8888```
+```
+python main.py --gpu --listen 0.0.0.0 --port 8888
+```
 
 ...And you are off to the races.
 
@@ -49,16 +69,24 @@ You've just installed all of the tools you'll need to get started. You won't nee
 
 Reactivate these modules:
 
-```ml anaconda git```
+```
+ml anaconda git
+```
 
 And:
 
-```source /modules/apps/anaconda3/etc/profile.d/conda.sh```
+```
+source /modules/apps/anaconda3/etc/profile.d/conda.sh
+```
 
 Then activate the ComfyUI environment:
 
-```conda activate comfyui```
+```
+conda activate comfyui
+```
 
 And finally, launch the ComfyUI server:
 
-```python main.py --gpu --listen 0.0.0.0 --port 8888```
+```
+python main.py --gpu --listen 0.0.0.0 --port 8888
+```
