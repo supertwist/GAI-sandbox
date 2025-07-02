@@ -11,3 +11,4 @@
 + do we pass images to a user/BOX/subDir, or can they live in the google sheet?
 + capture the prompt, other variables, and the output in a single sheet.
 + copy google sheet as template; copy first sheet, so document can have related projects divided up by sheets
++ create a bestiary of GPUs for comparison
