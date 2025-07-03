@@ -85,7 +85,7 @@ Then activate the ComfyUI environment:
 conda activate comfyui
 ```
 
-<span style="color:red">**NOTE, sometimes there's a gotcha...**</span>
+**NOTE, sometimes there's a gotcha...**
 Depending on where you left things the last time you logged into OOD, you might need to point the terminal to the ComfyUI directory. Here's an example:
 
 <img width="866" alt="Screenshot 2025-07-03 at 11 02 03 AM" src="https://github.com/user-attachments/assets/2e9bbcff-7e5a-4283-91a0-d4ed0a921bf8" />
