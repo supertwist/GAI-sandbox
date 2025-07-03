@@ -90,12 +90,12 @@ Depending on where you left things the last time you logged into OOD, you might 
 
 <img width="866" alt="Screenshot 2025-07-03 at 11 02 03 AM" src="https://github.com/user-attachments/assets/2e9bbcff-7e5a-4283-91a0-d4ed0a921bf8" />
 
-Let's dissect the bottom line (highlighted): 
+Let's dissect the bottom line (highlighted):
 + (comfyui) < is indicating that we are in the ComfyUI environment
-+ [sprtwst@gpu005] < is indicating tha I (my user account is sprtwst) am logged into the computer gpu005
-+ $ < the dollar sign indicates the system is ready to accept a commant
++ [sprtwst@gpu005] < is indicating that I (my user account is sprtwst) am logged into the computer gpu005
++ $ < the dollar sign indicates the system is ready to accept a command
 
-Great, but to run the next comman we actually need to be in the ComfyUI directory. If we enter this command:
+Great, but to run the next command (launching ComfyUI in a browser) we actually need to be in the ComfyUI directory. If we enter this command:
 
 ```
 cd ComfyUI
