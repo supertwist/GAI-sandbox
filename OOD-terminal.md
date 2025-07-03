@@ -85,7 +85,28 @@ Then activate the ComfyUI environment:
 conda activate comfyui
 ```
 
-And finally, launch the ComfyUI server:
+**NOTE, sometimes there's a gotcha...**
+Depending on where you left things the last time you logged into OOD, you might need to point the terminal to the ComfyUI directory. Here's an example:
+
+<img width="866" alt="Screenshot 2025-07-03 at 11 02 03 AM" src="https://github.com/user-attachments/assets/2e9bbcff-7e5a-4283-91a0-d4ed0a921bf8" />
+
+Let's dissect the bottom line (highlighted): 
++ (comfyui) < is indicating that we are in the ComfyUI environment
++ [sprtwst@gpu005] < is indicating tha I (my user account is sprtwst) am logged into the computer gpu005
++ $ < the dollar sign indicates the system is ready to accept a commant
+
+Great, but to run the next comman we actually need to be in the ComfyUI directory. If we enter this command:
+
+```
+cd ComfyUI
+```
+
+and hit enter, now we see "ComfyUI" before the $, indicating we are in that subdirectory:
+
+<img width="881" alt="Screenshot 2025-07-03 at 11 06 30 AM" src="https://github.com/user-attachments/assets/a4929436-731f-4c2e-bfb8-9891d0969ae5" />
+
+
+OK, finally, launch the ComfyUI server:
 
 ```
 python main.py --gpu --listen 0.0.0.0 --port 8888
