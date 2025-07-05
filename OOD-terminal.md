@@ -47,7 +47,7 @@ git clone https://github.com/ltdrdata/ComfyUI-Manager comfyui-manager
 Next, we'll download all the other software that ComfyUI depends on to run properly. Navigate back to the ComfyUI directory:
 
 ```
-cd ..
+cd ../
 ```
 
 Then:
