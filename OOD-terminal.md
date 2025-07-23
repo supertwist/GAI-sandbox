@@ -132,3 +132,12 @@ and finally, launch the server:
 ```
 python main.py --gpu --listen 0.0.0.0 --port 8888
 ```
+
+## Installing **ffmpeg** for voicecloning workflows:
+*Assumes you've already installed ComfyUI. Start a fresh session in OOD, and activate the CompfyUI environment...*
+
+Run this command:
+
+```
+conda install -c conda-forge ffmpeg
+```
