@@ -141,3 +141,5 @@ Run this command:
 ```
 conda install -c conda-forge ffmpeg
 ```
+
+Dhwanil's **more complete notes** can be found [here.](https://gwu.box.com/s/20l98lcy3rp8boks12hmg73i0onblb3y)
