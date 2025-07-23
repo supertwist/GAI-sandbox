@@ -111,3 +111,24 @@ OK, finally, launch the ComfyUI server:
 ```
 python main.py --gpu --listen 0.0.0.0 --port 8888
 ```
+
+## Running ComfyUI on Pegasus in the superchip queue:
+*assumes you've installed ComfyUI*
+
+First, activate the environment:
+
+```
+conda activate comfyui
+```
+
+Next, navigate to the ComfyUI folder:
+
+```
+cd ComfyUI
+```
+
+and finally, launch the server:
+
+```
+python main.py --gpu --listen 0.0.0.0 --port 8888
+```
