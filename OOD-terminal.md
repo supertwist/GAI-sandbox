@@ -1,4 +1,4 @@
-# Accessing Open OnDEmand (OOD)
+# Accessing Open OnDemand (OOD)
 Point an incognito browser window here:
 
 ```
