@@ -11,4 +11,6 @@ There are a number of ways to run ComfyUI, both locally and over networks. Advan
 
 With that in mind, James Huckenpahler and Dhwanil Mori have been working with the [**Research Technology Services** (RTS) team](https://it.gwu.edu/research) to determine if it is feasible to run ComfyUI using [High Performance Computing (HPC) resources.](https://hpc.gwu.edu/) The aim is to provide ComfyUI on high-performing hardware as a virtual machine, for sudents and faculty to conduct researcd ch into the appicability of generative AI in the arts. This repository captures our notes. A demo video made for program heads (and anyone else who might be interested) can be viewed [here.](https://gwu.box.com/s/6vtmpg9mba6nye6gchd88jy7ycff3qce)
 
+More recently, we presented to GW Coders; a video recording can be found [here](https://www.youtube.com/watch?v=DuPamABYRnc&list=PLUuvN0yNDNH8e9CXUzUi3gTES4jYtSntU&index=80)
+
 Our summer work was made possible with support from RTS, and from Dr. Ryan Watkins, through the [**Trustworthy AI in Law and Society (TRAILS)**](https://www.trails.umd.edu/) initiative to do research titled, "Operationalizing Trustworthy AI: LLM Development in Academia."
