@@ -9,7 +9,9 @@ We started with a few possible low-hanging fruits in May of 2025:
 
 There are a number of ways to run ComfyUI, both locally and over networks. Advanced users can install it via the terminal from ComfyUI's [GitHub repository.](https://github.com/comfyanonymous/ComfyUI) For less advanced users, there are [standalone versions](https://www.comfy.org/download) for Mac and Windows users. However, performance will vary depending on the user's computer, and will generally be slower than online services like [RunComfy](https://www.runcomfy.com/) which typically charge subscription fees.
 
-With that in mind, James Huckenpahler and Dhwanil Mori have been working with the [**Research Technology Services** (RTS) team](https://it.gwu.edu/research) to determine if it is feasible to run ComfyUI using [High Performance Computing (HPC) resources.](https://hpc.gwu.edu/) The aim is to provide ComfyUI on high-performing hardware as a virtual machine, for sudents and faculty to conduct researcd ch into the appicability of generative AI in the arts. This repository captures our notes. A demo video made for program heads (and anyone else who might be interested) can be viewed [here.](https://gwu.box.com/s/6vtmpg9mba6nye6gchd88jy7ycff3qce)
+With that in mind, James Huckenpahler and Dhwanil Mori have been working with the [**Research Technology Services** (RTS) team](https://it.gwu.edu/research) to determine if it is feasible to run ComfyUI using [High Performance Computing (HPC) resources.](https://hpc.gwu.edu/) The aim is to provide ComfyUI on high-performing hardware as a virtual machine, for sudents and faculty to conduct researcd ch into the appicability of generative AI in the arts. This repository captures our notes.
+
+A demo video made for program heads (and anyone else who might be interested) can be viewed [here.](https://gwu.box.com/s/6vtmpg9mba6nye6gchd88jy7ycff3qce)
 
 More recently, we presented to GW Coders; a video recording can be found [here](https://www.youtube.com/watch?v=DuPamABYRnc&list=PLUuvN0yNDNH8e9CXUzUi3gTES4jYtSntU&index=80)
 
