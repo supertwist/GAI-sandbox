@@ -1,5 +1,8 @@
 # Voice Cloning Research (via gpt-4o)
-Organizations that provide guidance and best practices for the ethical use of voice cloning include:
+
+Kicked off my thinking from [this article.](https://www.nytimes.com/2024/10/10/opinion/ai-voice-telemarketers.html)
+
+## Organizations that provide guidance and best practices for the ethical use of voice cloning include:
 
 1. [**IEEE Global Initiative on Ethics of Autonomous and Intelligent Systems**:](https://ethicsinaction.ieee.org/) They offer guidelines and standards for AI and machine learning technologies, including voice cloning.
 
