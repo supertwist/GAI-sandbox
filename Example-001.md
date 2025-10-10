@@ -2,8 +2,9 @@
 
 include
 + comfyUI workflow .json annotated
-+ link to model card on huggingface
-+ link to model repo
+
+# Hunyuan 3D
+This workflow uses the [Hunuan 3D](https://hunyuan-3d.com/) model. The model card can be found [here.](https://huggingface.co/tencent/Hunyuan3D-2.1)
 
 ## Conversion from .GLB to .STL
 [Meshlab](https://www.meshlab.net) is an open source Swiss Army knife for working with pointclouds and meshes. It can import and export a wide variety of formats, so it's a great conversion tool.
