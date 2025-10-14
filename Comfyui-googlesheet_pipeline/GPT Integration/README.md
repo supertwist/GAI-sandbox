@@ -1,6 +1,6 @@
 # 🧠 ComfyUI + Google Sheets + AWS S3 Pipeline
 
-This project connects **Google Sheets** to **ComfyUI** (a local Stable Diffusion workflow engine) and uploads generated images to **AWS S3**, automatically updating the Sheet with live previews.
+This project connects **Google Sheets** to **ComfyUI** (a local Stable Diffusion workflow engine) with HPC cluster(Peagasus) and uploads generated images to **AWS S3**, automatically updating the Sheet with live previews.
 
 ## 🚀 Workflow
 1. A user adds a **prompt** in Google Sheets and marks status as `pending`.
