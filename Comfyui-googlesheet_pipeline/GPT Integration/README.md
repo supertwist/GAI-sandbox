@@ -24,3 +24,5 @@ This project connects **Google Sheets** to **ComfyUI** (a local Stable Diffusion
 git clone https://github.com/<yourusername>/comfyui-google-sheets-pipeline.git
 cd comfyui-google-sheets-pipeline
 pip install -r requirements.txt
+
+More coming soon......
