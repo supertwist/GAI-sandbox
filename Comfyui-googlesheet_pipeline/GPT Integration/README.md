@@ -44,15 +44,15 @@ This is infrastructure for:
 
 ## 🏗 Architecture
 
-Google Sheets (Queue)  
-⬇  
-Python Runner  
-⬇  
-ComfyUI REST API (Local / Pegasus GPU)  
-⬇  
-AWS S3 (Storage Layer)  
-⬇  
-Sheet updated with URL + Preview  
+```mermaid
+flowchart LR
+    GS[Google Sheets\nPrompt Queue] --> PR[Python Runner]
+    PR --> CF[ComfyUI REST API\nPegasus GPU]
+    CF --> PR
+    PR --> S3[AWS S3 Storage]
+    S3 --> PR
+    PR --> GS2[Sheet Updated\nStatus + URL + Preview]
+```
 
 ---
 
@@ -208,17 +208,6 @@ This pipeline supports:
 
 ---
 
-## 🔜 Coming Soon
-
-- Automatic parameter logging (seed, cfg, steps)
-- Prompt templating engine
-- Auto-optimization loop
-- Secure pre-signed S3 URLs
-- Dockerized deployment
-- Multi-workflow support (image + video)
-- Evaluation metrics logging
-
----
 
 ## 🧠 Purpose
 
